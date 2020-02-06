@@ -15,7 +15,7 @@ class App extends Component {
 
       <div className="App">
         <Navbar />
-        <p>neoteryc website</p>
+        <p>website goes live 01/05/2020.</p>
 
 
       </div>
