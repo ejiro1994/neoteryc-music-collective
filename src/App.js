@@ -1,14 +1,29 @@
-import React from 'react';
 
-import './App.css';
+import Navbar from './components/Navbar'
 
-function App() {
-  return (
-    <div className="App">
-     <p>neoteryc website</p>
-      
-    </div>
-  );
+import './App.scss';
+
+
+import React, { Component } from 'react'
+
+
+
+
+class App extends Component {
+  render() {
+    return (
+
+      <div className="App">
+        <Navbar />
+        <p>neoteryc website</p>
+
+
+      </div>
+
+    )
+  }
 }
+
+
 
 export default App;
